@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fikry Haikal | Portofolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">FH<span>.</span></div>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="profil.html">Profil</a>
+                <a href="kontak.html">Kontak</a>
+            </nav>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="badge">✨ Mahasiswa Teknik Informatika</div>
+                        <h1>Muhammad <span class="gradient-text">Fikry Haikal</span></h1>
+                        <p class="subtitle">Full-stack Developer Enthusiast | Multimedia Creator</p>
+                        <p class="description">
+                            Saya adalah mahasiswa Teknik Informatika UHAMKA yang punya passion di bidang 
+                            Full-stack development. Dengan pengalaman magang di PPTIK ITB dan latar 
+                            belakang Multimedia, saya suka menggabungkan fungsionalitas kode dengan 
+                            aspek visual yang menarik.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="profil.html" class="btn primary">Lihat Profil →</a>
+                            <a href="kontak.html" class="btn outline">Hubungi Saya</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-wrapper">
+                            <img src="images/DSC05339.JPG" alt="Muhammad Fikry Haikal">
+                            <div class="image-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Tentang <span class="gradient-text">Saya</span></h2>
+                    <p>Perkenalan singkat perjalanan saya</p>
+                </div>
+                <div class="intro-card">
+                    <p>
+                        Saya Muhammad Fikry Haikal, mahasiswa Teknik Informatika UHAMKA yang memiliki passion 
+                        di bidang Full-stack development. Dengan pengalaman magang di PPTIK ITB dan latar 
+                        belakang Multimedia dari SMK, saya selalu berusaha menggabungkan fungsionalitas kode 
+                        yang solid dengan aspek visual yang menarik. Fotografi dan videografi adalah cara saya 
+                        mengekspresikan kreativitas di luar dunia coding.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hasil Fotografi Section (Rasio 16:9) -->
+        <section class="gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Hasil <span class="gradient-text">Fotografi</span></h2>
+                    <p>Beberapa karya fotografi saya (16:9)</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-image="images/DSC09643.JPG">
+                        <img src="images/DSC09643.JPG" alt="Foto DSC09643">
+                        <div class="gallery-overlay">
+                            <span>📷 DSC09643</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-image="images/Taman Menteng.JPG">
+                        <img src="images/Taman Menteng.JPG" alt="Taman Menteng">
+                        <div class="gallery-overlay">
+                            <span>📷 Taman Menteng</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-image="images/Angata Coffe View.JPG">
+                        <img src="images/Angata Coffe View.JPG" alt="Angata Coffee View">
+                        <div class="gallery-overlay">
+                            <span>📷 Angata Coffee View</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox untuk Galeri -->
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightboxImg">
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Muhammad Fikry Haikal | Teknik Informatika UHAMKA</p>
+            <div class="social-links">
+                <a href="#" id="instagramLink">📷 Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal untuk Profile Instagram (9:16) -->
+    <div id="instagramModal" class="instagram-modal">
+        <div class="instagram-modal-content">
+            <span class="instagram-close">&times;</span>
+            <img src="images/Profile Instagram.JPG" alt="Profile Instagram">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
