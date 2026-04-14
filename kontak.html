@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak | Fikry Haikal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="preloader" class="preloader">
+        <div class="loader-container">
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <div class="loader-text">Loading...</div>
+        </div>
+    </div>
+
+    <div id="mainContent" class="main-content hidden-content">
+        <header>
+            <div class="container">
+                <div class="logo">FH<span>.</span></div>
+                <nav>
+                    <a href="index.html">Beranda</a>
+                    <a href="profil.html">Profil</a>
+                    <a href="kontak.html" class="active">Kontak</a>
+                </nav>
+                <button class="dark-mode-toggle" id="darkModeToggle">🌙</button>
+                <div class="menu-toggle" id="menuToggle">☰</div>
+            </div>
+        </header>
+
+        <main>
+            <section class="page-hero fade-up">
+                <div class="container">
+                    <h1>Hubungi <span class="gradient-text">Saya</span></h1>
+                    <p>Terhubung dengan saya melalui form di bawah</p>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <div class="container">
+                    <div class="contact-wrapper">
+                        <div class="contact-info-card card-3d">
+                            <h3>Informasi Kontak</h3>
+                            <div class="contact-list">
+                                <div class="contact-item">
+                                    <span class="contact-icon">📧</span>
+                                    <div>
+                                        <strong>Email</strong>
+                                        <p>fikryhaikal2004@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-icon">📍</span>
+                                    <div>
+                                        <strong>Lokasi</strong>
+                                        <p>Jakarta, Indonesia</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-icon">💼</span>
+                                    <div>
+                                        <strong>Status</strong>
+                                        <p>Mahasiswa Aktif - Siap Kolaborasi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-media">
+                                <h4>Sosial Media</h4>
+                                <div class="social-icons">
+                                    <a href="https://www.instagram.com/_haikaalll_?igsh=MWFmZzViNzdoejNyYw==" target="_blank" rel="noopener noreferrer" class="social-icon">
+                                        📷 Instagram
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="emergency-contact">
+                                <h4>🆘 Butuh Respon Cepat?</h4>
+                                <button id="emergencyBtn" class="btn outline full">Hubungi Sekarang (Alert)</button>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-card card-3d">
+                            <h3>Kirim Pesan</h3>
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label>Nama Lengkap <span class="required">*</span></label>
+                                    <input type="text" id="contactNama" placeholder="Masukkan nama Anda">
+                                    <span class="error-message" id="contactNamaError"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email <span class="required">*</span></label>
+                                    <input type="email" id="contactEmail" placeholder="Masukkan email Anda">
+                                    <span class="error-message" id="contactEmailError"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label>Pesan</label>
+                                    <textarea id="contactPesan" rows="4" placeholder="Tulis pesan Anda..."></textarea>
+                                    <span class="error-message" id="contactPesanError"></span>
+                                </div>
+                                <button type="submit" class="btn primary full">Kirim Pesan →</button>
+                            </form>
+                            <div id="contactFormMessage" class="form-message"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>© 2026 Muhammad Fikry Haikal | Teknik Informatika UHAMKA</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/_haikaalll_?igsh=MWFmZzViNzdoejNyYw==" target="_blank" rel="noopener noreferrer">
+                        📷 Instagram
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <button id="scrollToTopBtn" class="scroll-to-top" title="Kembali ke atas">↑</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
